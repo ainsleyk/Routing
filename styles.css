@@ -6,7 +6,7 @@ body {
 #map {
    position: absolute;
    width: 100vw;
-   height: 96vh;
+   height: 100vh;
 }
 
 .ShowHide {
