@@ -6,7 +6,7 @@ body {
 #map {
    position: absolute;
    width: 100vw;
-   height: 97vh;
+   height: 96vh;
 }
 
 .ShowHide {
@@ -26,7 +26,7 @@ body {
   float: right;
   height: auto;
   text-align: center;
-  font-size: 1.5em
+  font-size: 2.2em
 }
 .ShowHide a {
    color: #FFFFFF;

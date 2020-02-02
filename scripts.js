@@ -57,3 +57,12 @@ map.on('click', function(e) {
         .setLatLng(e.latlng)
         .openOn(map);
  });
+
+ dom.addEventListener("gesturechange", gestureChange, false);
+
+ function gestureChange(e) {
+     // use the .length to count the amount of event.pointers
+     if(e.pointers.length >= 2){
+        // scroll with 2 or more
+     }
+ }
