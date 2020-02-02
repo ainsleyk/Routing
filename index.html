@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Simple Routing</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+    <!-- routing machine -->
+    <link rel="stylesheet" href="leaflet-routing-machine.css" />
+    <!-- geocoder -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <!-- reachability
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/trafforddatalab/leaflet.reachability@v2.0.0/leaflet.reachability.css"/> -->
+
+
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+    <!-- routing machine -->
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <!-- geocoder -->
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <!-- easy button -->
+    <script src=easy-button.js></script>
+    <!-- reachability
+    <script src="https://cdn.jsdelivr.net/gh/trafforddatalab/leaflet.reachability@v2.0.0/leaflet.reachability.js"></script> -->
+
+</head>
+<body>
+
+  <div class="ShowHide" id="Bar">
+  <div id="right">
+    <a href="#" onclick="Hide(Bar);"><b>X</b></a>
+  </div>
+  <div id="left">
+    <b>Routing an Adventure:</b>
+    On tap the option is giving to add a starting or ending location. You can add additional locations by dragging the route. Clicking <img src='pin.png' alt='location marker' style='width: 1em; height: 1em;'> will find you location for an faster start!
+    This page only pulls location when user request. Location data will not be stored or used for any other purpose.
+  </div>
+</div>
+
+    <div id="map">
+      <script src= 'scripts.js'></script>
+    </div>
+</body>
+</html>
